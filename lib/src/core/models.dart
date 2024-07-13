@@ -3,14 +3,14 @@ class Subtitle {
   /// Current index number of this subtitle in its file.
   final int index;
 
-  /// Store the current text for periode that started with [start] and
+  /// Store the current text for period that started with [start] and
   /// end with [end].
   final String data;
 
-  /// The start time of this text periode, comparited with video time.
+  /// The start time of this text period, compared with video time.
   final Duration start;
 
-  /// The end time of this text periode, comparited with video time.
+  /// The end time of this text period, compared with video time.
   final Duration end;
 
   const Subtitle({
